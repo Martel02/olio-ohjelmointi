@@ -12,10 +12,11 @@ void Asunto::maarita(int x, int y)
     cout<<"Asunto maaritetty asukkaita = "<<asukasMaara<<" nelioita = "<<neliot<<endl;
 }
 
-double Asunto::laskeKulutus(double x)
+double Asunto::laskeKulutus(double hinta)
 {
-    int hinta = x;
-    int kulutus = asukasMaara * neliot * hinta;
-    cout<<"Asunnon kulutus, kun hinta = "<<hinta<<" on "<<kulutus<<endl;
-    return 0;
+    double AsuntoKulutus = asukasMaara * neliot * hinta;
+    //teht 1
+    //cout<<"Asunnon kulutus, kun hinta = "<<hinta<<" on "<<AsuntoKulutus<<endl;
+
+    return AsuntoKulutus;
 }

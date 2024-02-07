@@ -10,8 +10,7 @@ class Katutaso:public Kerros
 {
 public:
     Katutaso();
-
-    void maaritaAsunnot();
+    void maaritaAsunnot() override;
     double laskeKulutus(double);
 
 private:
